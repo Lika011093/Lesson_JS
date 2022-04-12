@@ -89,4 +89,27 @@ alert("Hello World")
 
         let freeShipping = totalPrice > 1000; // бесплатная доставка при заказе от 1000
         alert(`Общая сумма ${totalPrice}. Бесплатная доставка: ${freeShipping}`);
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+        let x = 100;
+        let y = 20;
+
+        let result;
+
+        result = x + y; // сложение, result = 120
+        result = x - y; // вычитание, result = 80
+        result = x / y; // деление, result = 5
+        result = x * y; // умножение, result = 2000
+
+        // остаток от деления
+        result = x % y; // result - 0
+        result = 10 % 3; // result - 1
+        result = 10 % 6; // result - 4
+
+        // возведение в степень
+        result = x ** 2; // x в квадрате, result = 10000
+        result = y ** 5; // y в пятой степени, result = 3200000
+        alert(result);
+    
     
