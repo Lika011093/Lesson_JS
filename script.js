@@ -68,7 +68,6 @@ alert("Hello World")
     
 //ОПЕРАТОРЫ
 
-
         let product1 = "Бумага офисная А4, 80 г/м2, 500 л";
         let product2 = "Биндеры для бумаги 51 мм";
         let product3 = "Ручка шариковая синяя";
@@ -87,8 +86,7 @@ alert("Hello World")
         totalPrice += productPrice2 * productQuantity2;
         totalPrice += productPrice3 * productQuantity3;
 
-        let freeShipping = totalPrice > 1000; // бесплатная доставка при заказе от 1000
-        alert(`Общая сумма ${totalPrice}. Бесплатная доставка: ${freeShipping}`);
+        alert(`Общая сумма ${totalPrice}`);
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
