@@ -86,7 +86,9 @@ alert("Hello World")
         totalPrice += productPrice2 * productQuantity2;
         totalPrice += productPrice3 * productQuantity3;
 
-        alert(`Общая сумма ${totalPrice}`);
+        let freeShipping = totalPrice > 1000; // бесплатная доставка при заказе от 1000
+        alert(`Общая сумма ${totalPrice}. Бесплатная доставка: ${freeShipping}`);
+    
 
 /////////////////////////////////////////////////////////////////////////////////////////
 
